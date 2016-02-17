@@ -42,6 +42,7 @@ function getData() {
 }
 
 function appendDom(data) {
+  $('.data').empty();
   var $el;
   for (var i = 0; i < data.length; i++) {
     $('.data').append('<div class="person"></div>');
